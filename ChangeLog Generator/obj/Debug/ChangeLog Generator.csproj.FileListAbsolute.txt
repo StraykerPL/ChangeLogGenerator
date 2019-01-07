@@ -1,0 +1,48 @@
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe.config
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\bin\Debug\ChangeLog Generator.pdb
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog Generator.csprojAssemblyReference.cache
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog_Generator.edit.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog_Generator.info.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog_Generator.main.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog_Generator.Properties.Resources.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.GenerateResource.cache
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.CoreCompileInputs.cache
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog Generator.exe
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\Debug\ChangeLog Generator.pdb
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe.config
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.pdb
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csprojAssemblyReference.cache
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.edit.resources
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.info.resources
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.main.resources
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.Properties.Resources.resources
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.GenerateResource.cache
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.CoreCompileInputs.cache
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.exe
+C:\Users\Strayker\Desktop\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.pdb
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe.config
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.pdb
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csprojAssemblyReference.cache
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.edit.resources
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.info.resources
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.main.resources
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.Properties.Resources.resources
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.GenerateResource.cache
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.CoreCompileInputs.cache
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.exe
+D:\Daniel\Projekty Programów i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.pdb
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe.config
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.exe
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\bin\Debug\ChangeLog Generator.pdb
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csprojAssemblyReference.cache
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.edit.resources
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.info.resources
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.main.resources
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog_Generator.Properties.Resources.resources
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.GenerateResource.cache
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.CoreCompileInputs.cache
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.exe
+D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.pdb

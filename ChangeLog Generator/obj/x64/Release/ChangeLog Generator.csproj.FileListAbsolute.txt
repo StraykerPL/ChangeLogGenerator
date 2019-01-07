@@ -1,0 +1,12 @@
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\bin\x64\Release\ChangeLog Generator.exe.config
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\bin\x64\Release\ChangeLog Generator.exe
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\bin\x64\Release\ChangeLog Generator.pdb
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog_Generator.edit.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog_Generator.info.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog_Generator.main.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog_Generator.Properties.Resources.resources
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog Generator.csproj.GenerateResource.cache
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog Generator.csproj.CoreCompileInputs.cache
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog Generator.exe
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog Generator.pdb
+C:\Users\Strayker\Desktop\ChangeLog Generator\ChangeLog Generator\obj\x64\Release\ChangeLog Generator.csprojAssemblyReference.cache
