@@ -1,9 +1,9 @@
 ﻿/*
- * ChangeLog Generator by Daniel Strayker Nowak
- * Copyright © 2018-2019 Daniel Strayker Nowak all rights reserved
- * GNU General Public License 2
- * https://github.com/StraykerPL/changelog_generator
- */
+  ChangeLog Generator File
+  This file is published under Strayker Free Software License v1.0
+  Copyright 2019 Daniel Strayker Nowak
+  All rights reserved by Copyright and this license
+*/
 
 using System;
 // using System.Diagnostics;
