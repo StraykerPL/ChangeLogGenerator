@@ -25,9 +25,9 @@ namespace ChangeLog_Generator
                 button2.Text = "Language";
                 label1.Text = "ChangeLog Generator";
                 label2.Text = "Version: 0.1";
-                label3.Text = "Simple generator of changelog files\nfor Strayex Development Pack";
+                label3.Text = "Simple generator of changelog files\nfor Strayex Shell";
                 label4.Text = "Copyright © 2018-2019 Daniel Strayker Nowak";
-                label5.Text = "All rights reserved under copyright laws\nand GNU General Public License 2";
+                label5.Text = "All rights reserved under copyright laws\nand MIT/X11 license";
             }
             else if (lang == "pl")
             {
@@ -35,9 +35,9 @@ namespace ChangeLog_Generator
                 button2.Text = "Język";
                 label1.Text = "ChangeLog Generator";
                 label2.Text = "Wersja: 0.1";
-                label3.Text = "Prosty generator plików changelog dla\nStrayex Development Pack";
+                label3.Text = "Prosty generator plików changelog dla\nStrayex Shell";
                 label4.Text = "Copyright © 2018-2019 Daniel Strayker Nowak";
-                label5.Text = "Wszelkie prawa zastrzeżone na mocy praw autorskich\ni GNU General Public License 2";
+                label5.Text = "Wszelkie prawa zastrzeżone na mocy praw autorskich\ni licencji MIT/X11";
             }
         }
 

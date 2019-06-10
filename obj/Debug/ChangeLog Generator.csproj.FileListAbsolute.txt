@@ -46,3 +46,15 @@ D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\Chan
 D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.csproj.CoreCompileInputs.cache
 D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.exe
 D:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Debug\ChangeLog Generator.pdb
+A:\Repozytoria\changelog_generator\bin\Debug\ChangeLog Generator.exe.config
+A:\Repozytoria\changelog_generator\bin\Debug\ChangeLog Generator.exe
+A:\Repozytoria\changelog_generator\bin\Debug\ChangeLog Generator.pdb
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.csprojAssemblyReference.cache
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.edit.resources
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.info.resources
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.main.resources
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.Properties.Resources.resources
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.csproj.GenerateResource.cache
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.csproj.CoreCompileInputs.cache
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.exe
+A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.pdb
