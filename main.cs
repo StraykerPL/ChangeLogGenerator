@@ -17,7 +17,7 @@ namespace ChangeLog_Generator
         {
             InitializeComponent();
             var a = new Language();
-            lang = a.Lang_get();
+            lang = a.GetLang();
             
             if(lang == "en")
             {

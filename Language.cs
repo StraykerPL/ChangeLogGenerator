@@ -11,29 +11,38 @@ namespace ChangeLog_Generator
     public class Language
     {
         // Name can contain "en" or "pl", another strings won't work,
-        private string name;
+        private string Name;
+        private readonly string[] SupportedLanguages = { "en", "pl" };
 
-        // Constructor, reads saved language,
+        // Constructor, reads saved language:
         public Language()
         {
-            name = Settings.Default.lang;
+            Name = Settings.Default.lang;
         }
         
-        // Method for saving language setting to setting.settings in Properties of project,
-        public void Save_lang()
+        // Method for saving language setting to setting.settings in Properties of project:
+        public void SaveLang()
         {
-            Settings.Default.lang = name;
+            Settings.Default.lang = Name;
             Settings.Default.Save();
         }
 
-        // Method for setting new language,
-        public void Lang_set(string lang_char)
+        // Method for setting new language, returns true if operation is complete, false if there's error with lang code:
+        public bool SetLang(string langchar)
         {
-            name = lang_char;
-            Save_lang();
+            // Checks supported languages:
+            for (int i = 0; i < SupportedLanguages.Length; i++)
+            {
+                if (langchar == SupportedLanguages[i]) continue;
+                else return false;
+            }
+
+            Name = langchar;
+            SaveLang();
+            return true;
         }
 
-        // Method for returning actual language,
-        public string Lang_get() { return name; }
+        // Method for returning actual language:
+        public string GetLang() { return Name; }
     }
 }

@@ -17,7 +17,7 @@ namespace ChangeLog_Generator
         public info()
         {
             InitializeComponent();
-            lang = a.Lang_get();
+            lang = a.GetLang();
 
             if (lang == "en")
             {
@@ -50,16 +50,16 @@ namespace ChangeLog_Generator
         {
             if (lang == "en")
             {
-                a.Lang_set("pl");
+                a.SetLang("pl");
                 lang = "pl";
-                a.Save_lang();
+                a.SaveLang();
                 Application.Restart();
             }
             else if(lang == "pl")
             {
-                a.Lang_set("en");
+                a.SetLang("en");
                 lang = "en";
-                a.Save_lang();
+                a.SaveLang();
                 Application.Restart();
             }
         }

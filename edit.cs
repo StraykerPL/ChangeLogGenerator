@@ -21,7 +21,7 @@ namespace ChangeLog_Generator
         {
             InitializeComponent();
             this.sciezka = sciezka;
-            lang = a.Lang_get();
+            lang = a.GetLang();
 
             if(lang == "en")
             {
