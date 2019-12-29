@@ -4,7 +4,7 @@
 */
 
 using System;
-// using System.Diagnostics;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace ChangeLog_Generator
@@ -21,31 +21,31 @@ namespace ChangeLog_Generator
             
             if(lang == "en")
             {
-                button1.Text = "Generate file";
-                button3.Text = "Documentation";
-                button4.Text = "Informations about app";
+                NewFileButton.Text = "Generate file";
+                DocumentationButton.Text = "Documentation";
+                AboutAppButton.Text = "Informations about app";
             }
             else if(lang == "pl")
             {
-                button1.Text = "Generuj plik";
-                button3.Text = "Dokomentacja";
-                button4.Text = "Informacje o programie";
+                NewFileButton.Text = "Generuj plik";
+                DocumentationButton.Text = "Dokomentacja";
+                AboutAppButton.Text = "Informacje o programie";
             }
         }
 
-        public void button3_Click(object sender, EventArgs e) // Documentation button:
+        public void DocumentationButton_Click(object sender, EventArgs e) // Documentation button:
         {
-            // Process.Start("http://www.strayker.cba.pl/docs/docs.html"); Webpage under mainteinance!
+            Process.Start("https://github.com/StraykerPL/changelog_generator#using");
         }
 
-        public void button4_Click(object sender, EventArgs e) // Informations about app button:
+        public void ApoutAppButton_Click(object sender, EventArgs e) // Informations about app button:
         {
             // Opens app's info screen:
             Form info = new info();
             info.Show();
         }
 
-        public void button1_Click(object sender, EventArgs e) // New file button:
+        public void NewFileButton_Click(object sender, EventArgs e) // New file button:
         {
             // Configures and shows dialog box for choosing directory, text in dialog,
             if (lang == "en")
@@ -62,8 +62,8 @@ namespace ChangeLog_Generator
                 if(folderBrowserDialog1.SelectedPath != null)
                 { //If dialog box returned directory:
                     //Open creator window,
-                    Form edit = new edit(folderBrowserDialog1.SelectedPath);
-                    edit.Show();
+                    var a = new edit(folderBrowserDialog1.SelectedPath);
+                    a.Show();
                     Hide();
                 }
             }
