@@ -9,44 +9,44 @@ using System.Windows.Forms;
 
 namespace ChangeLog_Generator
 {
-    public partial class info : Form
+    public partial class Info : Form
     {
-        string lang;
-        Language a = new Language();
+        private string lang;
+        private readonly Language a = new Language();
 
-        public info()
+        public Info()
         {
             InitializeComponent();
             lang = a.GetLang();
 
             if (lang == "en")
             {
-                button1.Text = "Exit";
-                button2.Text = "Language";
+                ExitButton.Text = "Exit";
+                LanguageButton.Text = "Language";
                 label1.Text = "ChangeLog Generator";
                 label2.Text = "Version: 0.1";
                 label3.Text = "Simple generator of changelog files\nfor Strayex Shell";
-                label4.Text = "Copyright © 2018-2019 Daniel Strayker Nowak";
+                label4.Text = "Copyright © 2018-2020 Daniel Strayker Nowak";
                 label5.Text = "All rights reserved under copyright laws\nand MIT/X11 license";
             }
             else if (lang == "pl")
             {
-                button1.Text = "Zamknij";
-                button2.Text = "Język";
+                ExitButton.Text = "Zamknij";
+                LanguageButton.Text = "Język";
                 label1.Text = "ChangeLog Generator";
                 label2.Text = "Wersja: 0.1";
                 label3.Text = "Prosty generator plików changelog dla\nStrayex Shell";
-                label4.Text = "Copyright © 2018-2019 Daniel Strayker Nowak";
+                label4.Text = "Copyright © 2018-2020 Daniel Strayker Nowak";
                 label5.Text = "Wszelkie prawa zastrzeżone na mocy praw autorskich\ni licencji MIT/X11";
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ExitButton_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void LanguageButton_Click(object sender, EventArgs e)
         {
             if (lang == "en")
             {
@@ -64,7 +64,7 @@ namespace ChangeLog_Generator
             }
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void Link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("https://github.com/StraykerPL/changelog_generator");
         }

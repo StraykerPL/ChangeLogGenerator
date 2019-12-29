@@ -33,8 +33,7 @@ namespace ChangeLog_Generator
             // Checks supported languages:
             for (int i = 0; i < SupportedLanguages.Length; i++)
             {
-                if (langchar == SupportedLanguages[i]) continue;
-                else return false;
+                if (langchar == SupportedLanguages[i]) break;
             }
 
             Name = langchar;

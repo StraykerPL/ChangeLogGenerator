@@ -11,7 +11,7 @@ namespace ChangeLog_Generator
 {
     public partial class main : Form
     {
-        string lang;
+        public string lang;
 
         public main()
         {
@@ -41,13 +41,13 @@ namespace ChangeLog_Generator
         public void ApoutAppButton_Click(object sender, EventArgs e) // Informations about app button:
         {
             // Opens app's info screen:
-            Form info = new info();
-            info.Show();
+            var a = new Info();
+            a.Show();
         }
 
         public void NewFileButton_Click(object sender, EventArgs e) // New file button:
         {
-            // Configures and shows dialog box for choosing directory, text in dialog,
+            // Configures and shows dialog box for choosing directory, text in dialog:
             if (lang == "en")
             {
                 folderBrowserDialog1.Description = "Choose directory to create file in:";
@@ -62,7 +62,7 @@ namespace ChangeLog_Generator
                 if(folderBrowserDialog1.SelectedPath != null)
                 { //If dialog box returned directory:
                     //Open creator window,
-                    var a = new edit(folderBrowserDialog1.SelectedPath);
+                    var a = new Edit(folderBrowserDialog1.SelectedPath);
                     a.Show();
                     Hide();
                 }

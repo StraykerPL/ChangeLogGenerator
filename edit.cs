@@ -9,18 +9,17 @@ using System.IO;
 
 namespace ChangeLog_Generator
 {
-    public partial class edit : Form
+    public partial class Edit : Form
     {
         StreamWriter save;
-        // For directory for changelog,
-        string sciezka = "";
-        Language a = new Language();
+        string dir = ""; // For directory for changelog,
+        readonly Language a = new Language();
         string lang = "";
 
-        public edit(string sciezka)
+        public Edit(string sciezka)
         {
             InitializeComponent();
-            this.sciezka = sciezka;
+            this.dir = sciezka;
             lang = a.GetLang();
 
             if(lang == "en")
@@ -29,26 +28,17 @@ namespace ChangeLog_Generator
                 label4.Text = "2. Additional informations:";
                 label5.Text = "3. To be in next version\n(Leave empty, if not wanted):";
                 label6.Text = "4. Idditional informations\n(Leave empty, if not wanted):";
-            }
-            else if(lang == "pl")
-            {
-                label3.Text = "1. Nagłówek:";
-                label4.Text = "2. Dodatkowe informacje:";
-                label5.Text = "3. W następnej wersji\n(Leave empty, if not wanted):";
-                label6.Text = "4. Dodatkowe informacje\n(Leave empty, if not wanted):";
+
+                ExitButton.Text = "Exit";
+                GenerateButton.Text = "Generate";
             }
         }
 
         public void button1_Click(object sender, EventArgs e) // Exit button:
         {
-            FormCollection formy = Application.OpenForms;
+            var formy = Application.OpenForms;
             formy[0].Show();
             Close();
-        }
-
-        public void edit_Load(object sender, EventArgs e) // Before form is loaded,
-        {
-
         }
 
         public void button2_Click(object sender, EventArgs e) // Generate file button:
@@ -69,14 +59,14 @@ namespace ChangeLog_Generator
                 Wpis_do_pliku();
                 if (lang == "en")
                 {
-
+                    MessageBox.Show("File generation completed succesfully! File is in: " + dir + " !", "ChangeLog Generator", MessageBoxButtons.OK);
                 }
                 else if (lang == "pl")
                 {
-
+                    MessageBox.Show("Generowanie pliku ukończone pomyślnie! Plik znajduje się w: " + dir + " !", "ChangeLog Generator", MessageBoxButtons.OK);
                 }
-                MessageBox.Show("Generowanie pliku ukończone pomyślnie! Plik znajduje się w: " + sciezka + " !", "ChangeLog Generator", MessageBoxButtons.OK);
-                FormCollection formy = Application.OpenForms;
+                
+                var formy = Application.OpenForms;
                 formy[0].Show();
                 Close();
             }
@@ -86,49 +76,89 @@ namespace ChangeLog_Generator
         {
             if (lang == "en")
             {
+                save = new StreamWriter(dir + "\\changelog.txt");
+                save.WriteLine("*ChangeLog*");
+                save.WriteLine();
+                save.WriteLine("Information from author:");
+                save.WriteLine();
+                save.Write(textBox_naglowek.Text);
+                save.WriteLine();
+                save.WriteLine();
+                save.WriteLine("What's new?");
+                save.WriteLine();
+                save.Write(textBox_info_dod.Text);
+                save.WriteLine();
 
+                if (textBox_info_zap.Text != "")
+                {
+                    save.WriteLine();
+                    save.WriteLine("What will be added in next update?");
+                    save.WriteLine();
+                    save.Write(textBox_info_zap.Text);
+                    save.WriteLine();
+                }
+
+                if (textBox_info_dodatk.Text != "")
+                {
+                    save.WriteLine();
+                    save.WriteLine("Additional informations:");
+                    save.WriteLine();
+                    save.Write(textBox_info_dodatk.Text);
+                    save.WriteLine();
+                }
+
+                save.WriteLine();
+                save.WriteLine(" ====================== Advertisment ====================== ");
+                save.WriteLine(" | This ChangeLog was created with                        | ");
+                save.WriteLine(" | ChangeLog Generator by                                 | ");
+                save.WriteLine(" | Daniel Strayker Nowak!                                 | ");
+                save.WriteLine(" | https://straykerpl.github.io                           | ");
+                save.WriteLine(" | https://github.com/StraykerPL/changelog_generator      | ");
+                save.WriteLine(" ========================================================== ");
             }
             else if (lang == "pl")
             {
+                save = new StreamWriter(dir + "\\changelog.txt");
+                save.WriteLine("*ChangeLog*");
+                save.WriteLine();
+                save.WriteLine("Informacje od autora:");
+                save.WriteLine();
+                save.Write(textBox_naglowek.Text);
+                save.WriteLine();
+                save.WriteLine();
+                save.WriteLine("Co nowego?");
+                save.WriteLine();
+                save.Write(textBox_info_dod.Text);
+                save.WriteLine();
 
+                if (textBox_info_zap.Text != "")
+                {
+                    save.WriteLine();
+                    save.WriteLine("Co zostanie dodane w następnej aktualizacji?");
+                    save.WriteLine();
+                    save.Write(textBox_info_zap.Text);
+                    save.WriteLine();
+                }
+
+                if (textBox_info_dodatk.Text != "")
+                {
+                    save.WriteLine();
+                    save.WriteLine("Dodatkowe informacje:");
+                    save.WriteLine();
+                    save.Write(textBox_info_dodatk.Text);
+                    save.WriteLine();
+                }
+
+                save.WriteLine();
+                save.WriteLine(" ================================ Reklama ================================ ");
+                save.WriteLine(" | Ten ChangeLog został wygenerowany przy pomocy                         | ");
+                save.WriteLine(" | ChangeLog Generator stworzonego przez                                 | ");
+                save.WriteLine(" | Daniel Strayker Nowak!                                                | ");
+                save.WriteLine(" | https://straykerpl.github.io                                          | ");
+                save.WriteLine(" | https://github.com/StraykerPL/changelog_generator                     | ");
+                save.WriteLine(" ========================================================================= ");
             }
-            save = new StreamWriter(sciezka + "\\changelog.txt");
-            save.WriteLine("*ChangeLog*");
-            save.WriteLine();
-            save.WriteLine("Informations from author:");
-            save.WriteLine();
-            save.Write(textBox_naglowek.Text);
-            save.WriteLine();
-            save.WriteLine();
-            save.WriteLine("What's new?");
-            save.WriteLine();
-            save.Write(textBox_info_dod.Text);
-            save.WriteLine();
-
-            if(textBox_info_zap.Text != "")
-            {
-                save.WriteLine("What will be added in next update?");
-                save.WriteLine();
-                save.Write(textBox_info_zap.Text);
-                save.WriteLine();
-            }
-
-            if(textBox_info_dodatk.Text != "")
-            {
-                save.WriteLine("Additional informations:");
-                save.WriteLine();
-                save.Write(textBox_info_dodatk.Text);
-                save.WriteLine();
-            }
-
-            save.WriteLine();
-            save.WriteLine(" ======================= Advertisment ===================== ");
-            save.WriteLine(" | This ChangeLog was created with                        | ");
-            save.WriteLine(" | ChangeLog Generator by                                 | ");
-            save.WriteLine(" | Daniel Strayker Nowak!                                 | ");
-            save.WriteLine(" | http://www.strayker.cba.pl                             | ");
-            save.WriteLine(" | https://github.com/StraykerPL/changelog_generator      | ");
-            save.WriteLine(" ========================================================== ");
+            
             save.Close();
             save.Dispose();
         }
