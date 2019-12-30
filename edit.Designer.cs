@@ -44,6 +44,7 @@
             // 
             // ExitButton
             // 
+            this.ExitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.ExitButton.Location = new System.Drawing.Point(16, 523);
             this.ExitButton.Margin = new System.Windows.Forms.Padding(4);
             this.ExitButton.Name = "ExitButton";
@@ -57,6 +58,8 @@
             // 
             this.textBox_naglowek.AcceptsTab = true;
             this.textBox_naglowek.AllowDrop = true;
+            this.textBox_naglowek.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_naglowek.Location = new System.Drawing.Point(16, 31);
             this.textBox_naglowek.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_naglowek.Multiline = true;
@@ -89,6 +92,8 @@
             // 
             this.textBox_info_dod.AcceptsTab = true;
             this.textBox_info_dod.AllowDrop = true;
+            this.textBox_info_dod.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_info_dod.Location = new System.Drawing.Point(16, 154);
             this.textBox_info_dod.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_info_dod.Multiline = true;
@@ -112,6 +117,8 @@
             // 
             this.textBox_info_zap.AcceptsTab = true;
             this.textBox_info_zap.AllowDrop = true;
+            this.textBox_info_zap.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_info_zap.Location = new System.Drawing.Point(16, 303);
             this.textBox_info_zap.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_info_zap.Multiline = true;
@@ -134,6 +141,8 @@
             // 
             this.textBox_info_dodatk.AcceptsTab = true;
             this.textBox_info_dodatk.AllowDrop = true;
+            this.textBox_info_dodatk.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_info_dodatk.Location = new System.Drawing.Point(16, 426);
             this.textBox_info_dodatk.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_info_dodatk.Multiline = true;
@@ -144,6 +153,7 @@
             // 
             // GenerateButton
             // 
+            this.GenerateButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.GenerateButton.Location = new System.Drawing.Point(136, 523);
             this.GenerateButton.Margin = new System.Windows.Forms.Padding(4);
             this.GenerateButton.Name = "GenerateButton";
@@ -158,7 +168,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(260, 560);
+            this.ControlBox = false;
             this.Controls.Add(this.GenerateButton);
+            this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.textBox_info_dodatk);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox_info_zap);
@@ -167,12 +179,11 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox_naglowek);
-            this.Controls.Add(this.ExitButton);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(278, 607);
             this.Name = "Edit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChangeLog Generator - Create file";

@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Daniel Strayker Nowak")]
 [assembly: AssemblyProduct("ChangeLog Generator")]
-[assembly: AssemblyCopyright("Copyright © Daniel Strayker Nowak  2018-2019")]
+[assembly: AssemblyCopyright("Copyright © Daniel Strayker Nowak  2018-2020")]
 [assembly: AssemblyTrademark("Daniel Strayker Nowak")]
 [assembly: AssemblyCulture("")]
 

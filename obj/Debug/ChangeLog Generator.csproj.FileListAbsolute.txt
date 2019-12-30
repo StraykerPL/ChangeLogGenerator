@@ -58,13 +58,3 @@ A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.csproj.Generate
 A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.csproj.CoreCompileInputs.cache
 A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.exe
 A:\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.pdb
-E:\Daniel\Repozytoria\changelog_generator\bin\Debug\ChangeLog Generator.exe.config
-E:\Daniel\Repozytoria\changelog_generator\bin\Debug\ChangeLog Generator.exe
-E:\Daniel\Repozytoria\changelog_generator\bin\Debug\ChangeLog Generator.pdb
-E:\Daniel\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.Edit.resources
-E:\Daniel\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.Info.resources
-E:\Daniel\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.main.resources
-E:\Daniel\Repozytoria\changelog_generator\obj\Debug\ChangeLog_Generator.Properties.Resources.resources
-E:\Daniel\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.csproj.GenerateResource.cache
-E:\Daniel\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.exe
-E:\Daniel\Repozytoria\changelog_generator\obj\Debug\ChangeLog Generator.pdb

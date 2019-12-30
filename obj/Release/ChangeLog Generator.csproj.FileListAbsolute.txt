@@ -10,3 +10,14 @@ E:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Release\Ch
 E:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Release\ChangeLog Generator.csproj.CoreCompileInputs.cache
 E:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Release\ChangeLog Generator.exe
 E:\Daniel\Projekty Programow i Stron\Strayker\ChangeLog Generator\obj\Release\ChangeLog Generator.pdb
+E:\Daniel\Repozytoria\changelog_generator\bin\Release\ChangeLog Generator.exe.config
+E:\Daniel\Repozytoria\changelog_generator\bin\Release\ChangeLog Generator.exe
+E:\Daniel\Repozytoria\changelog_generator\bin\Release\ChangeLog Generator.pdb
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog Generator.csprojAssemblyReference.cache
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog_Generator.Edit.resources
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog_Generator.Info.resources
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog_Generator.main.resources
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog_Generator.Properties.Resources.resources
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog Generator.csproj.GenerateResource.cache
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog Generator.exe
+E:\Daniel\Repozytoria\changelog_generator\obj\Release\ChangeLog Generator.pdb
