@@ -2,11 +2,11 @@
 
 Simple C# app to create changelog files dynamically. To create file, user have to fill in appropriate text boxes and choose directory to save file.
 
-![main.PNG](E:\Daniel\Repozytoria\changelog_generator\images\main.PNG)
+![main.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/main.PNG)
 
-![infowindow.PNG](E:\Daniel\Repozytoria\changelog_generator\images\infowindow.PNG)
+![infowindow.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/infowindow.PNG)
 
-![edit.PNG](E:\Daniel\Repozytoria\changelog_generator\images\edit.PNG)
+![edit.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/main.PNG)
 
 # Building
 
