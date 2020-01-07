@@ -4,9 +4,9 @@ Simple C# app to create changelog files dynamically. To create file, user have t
 
 ![main.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/main.PNG)
 
-![infowindow.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/infowindow.PNG)
+![edit.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/edit.PNG)
 
-![edit.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/main.PNG)
+![infowindow.PNG](https://github.com/StraykerPL/changelog_generator/blob/master/images/infowindow.PNG)
 
 # Building
 
